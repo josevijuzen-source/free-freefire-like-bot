@@ -24,7 +24,7 @@ class LikeCommands(commands.Cog):
         if RAPIDAPI_KEY:
             self.headers = {
                 'x-rapidapi-key': RAPIDAPI_KEY,
-                'x-rapidapi-host': "free-fire-like1.p.rapidapi.com"
+                'x-rapidapi-host': "https://free-fire-like.p.rapidapi.com/api/bd/7260325122?key=ridoy"
             }
 
     def load_config(self):
